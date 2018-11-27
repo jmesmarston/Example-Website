@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+	<title>JavaScript Example</title>
+	<link rel="stylesheet" href="CSS/styles.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+	<script src="JS/main.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <section id="canvasSection" class="noSelect" ondrop="dropPicture(event)" ondragover="allowDrop(event)">
+    <canvas id="canvas"></canvas>
+  </section>
+  <section id="imageSection">
+    <img src="assets/mario.png" class="pictureInPicker" id="mario" draggable="true" ondragstart="drag(event)">
+    <img src="assets/sans.jpg" class="pictureInPicker" id="sans" draggable="true" ondragstart="drag(event)">
+    <img src="assets/sonic.png" class="pictureInPicker" id="sonic" draggable="true" ondragstart="drag(event)">
+    <img src="assets/waluigi.png" class="pictureInPicker" id="wa" draggable="true" ondragstart="drag(event)">
+  </section>
+</body>
+
+<!-- https://dinkieshy.github.io/CSS-JavaScript-Example/ --> 
